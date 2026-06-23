@@ -1,0 +1,37 @@
+name: 功能任务
+description: 用于已批准的产品或工程功能
+title: "[Feature] "
+body:
+  - type: textarea
+    attributes:
+      label: 背景与用户价值
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 目标
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 包含范围
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 不包含范围
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 验收标准
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 测试要求
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 风险与依赖
